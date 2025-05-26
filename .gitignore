@@ -1,0 +1,12 @@
+# Ignoruj plik z tokenem
+.env
+
+# Ignoruj katalog node_modules (moduły npm)
+node_modules/
+
+# Ignoruj pliki logów
+*.log
+
+# Ignoruj pliki systemowe (Windows, macOS)
+Thumbs.db
+.DS_Store
