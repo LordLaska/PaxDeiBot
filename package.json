@@ -1,15 +1,18 @@
 {
-  "name": "paxdeibot",
+  "name": "PaxDeiBot",
   "version": "1.0.0",
+  "description": "Discord bot for Pax Dei",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "discord.js": "^14.19.3"
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
   }
 }
